@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <LinearLayout
+            android:background="@drawable/app_panel_bg"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp">
+        <Button
+                android:background="@drawable/tab_left"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"></Button>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"></TextView>
+        <Button
+                android:background="@drawable/write_operation_diary"
+                android:onClick="update"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:gravity="right"></Button>
+    </LinearLayout>
+    <com.creturn.app.weibo.widget.PullToRefreshListView
+            android:listSelector="@drawable/list_item_select"
+            android:cacheColorHint="@color/listitem_transparent"
+            android:id="@+id/main_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+    </com.creturn.app.weibo.widget.PullToRefreshListView>
+
+    <LinearLayout
+            android:background="@drawable/app_panel_bg"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp">
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/constellation_crab"></Button>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

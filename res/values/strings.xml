@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">轻微博</string>
+    <string name="pull_to_refresh_pull_label">下拉即可刷新</string>
+    <string name="pull_to_refresh_release_label">松开即可刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_tap_label">点击刷新</string>
+    <string name="loader_more">加载更多</string>
+    <string name="btn_weibo">刷微博</string>
+    <string name="btn_user_info">获取用户信息</string>
+    <string name="hello_world">hello</string>
+    <string name="menu_settings">设置</string>
+
+</resources>
